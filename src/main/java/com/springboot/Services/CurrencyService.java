@@ -95,11 +95,15 @@ public class CurrencyService {
         JSONObject currencyRates = jsonObject.getJSONObject("rates");
 
         for(String currency: Configuration.currencies) {
-            currencyRatesMap.put(currency, currencyRates.getFloat(currency) );
+            if(currency.equals("EUR")) {
+                currencyRatesMap.put(currency, 1.0f );
+            } else {
+                currencyRatesMap.put(currency, currencyRates.getFloat(currency) );
+            }
+
         }
 
-        System.out.println(currencyRatesMap.keySet().toString());
-        System.out.println(currencyRatesMap.keySet().size());
+
 
         in.close();
 
