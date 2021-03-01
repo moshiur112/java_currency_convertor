@@ -31,34 +31,7 @@ public class CurrencyService {
 
 
 
-    public Exchange prepare(Exchange exchange) throws IOException {
 
-
-
-        baseCurrency = "EUR";
-        currencyRatesMap = new HashMap<>();
-        this.exchange = exchange;
-        prepareCurrencyData();
-        this.currencyData = new CurrencyData(baseCurrency, currencyRatesMap);
-        exchange.value = String.valueOf(calculateExhange(exchange, currencyData));
-        return this.exchange;
-
-    }
-    @Cacheable("exchange")
-    public Exchange getExchange(Exchange answer) {
-//        Uncomment this to simulate a backed a call
-/*        try
-        {
-            System.out.println("Going to sleep for 5 seconds to simulate backend call.");
-            Thread.sleep(1000*5);
-        }
-        catch (InterruptedException e)
-        {
-            e.printStackTrace();
-        }*/
-
-        return this.exchange;
-    }
 
     public float calculateExhange(Exchange exchange, CurrencyData currencyData) {
         float ans = 0;
@@ -73,6 +46,20 @@ public class CurrencyService {
             ans = calculate(source, target, Float.parseFloat(exchange.amount));
         }
      return ans;
+    }
+
+    public Exchange prepare(Exchange exchange) throws IOException {
+
+
+
+        baseCurrency = "EUR";
+        currencyRatesMap = new HashMap<>();
+        this.exchange = exchange;
+        prepareCurrencyData();
+        this.currencyData = new CurrencyData(baseCurrency, currencyRatesMap);
+        exchange.value = String.valueOf(calculateExhange(exchange, currencyData));
+        return this.exchange;
+
     }
 
     public float calculate(float source, float target, float amount) {
@@ -108,6 +95,21 @@ public class CurrencyService {
         in.close();
 
 
+    }
+    @Cacheable("exchange")
+    public Exchange getExchange(Exchange answer) {
+//        Uncomment this to simulate a backed a call
+/*        try
+        {
+            System.out.println("Going to sleep for 5 seconds to simulate backend call.");
+            Thread.sleep(1000*5);
+        }
+        catch (InterruptedException e)
+        {
+            e.printStackTrace();
+        }*/
+
+        return this.exchange;
     }
 
 
