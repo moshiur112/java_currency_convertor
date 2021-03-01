@@ -76,8 +76,7 @@ public class Controller {
 				foundDigit = true;
 			}
 		}
-		foundDigit = true;
-		return foundDigit;
+		return true;
 	}
 
 }

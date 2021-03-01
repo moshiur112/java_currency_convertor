@@ -17,6 +17,7 @@ class ErrorPageTest {
 
     @Test
     void equalDiffernet() {
+//      The input for the constructor for the ep2 object is different
         ErrorPage ep = new ErrorPage("error page 1");
         ErrorPage ep2 = new ErrorPage("error page 2");
         assertNotEquals(ep, ep2);
