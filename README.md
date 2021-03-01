@@ -45,6 +45,6 @@ for example: https://java-currency-convertor.herokuapp.com/?source=HKD&target=EU
 
 
 
-# Tests
+## Tests
 To run the tests, use the command "mvn test" or "mvn clean test" or go to the test directory 
 and run the tests manually in each test class
