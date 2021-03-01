@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c462e57-43de-4494-964d-8c3660ee5dcf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/springboot/Controllers/ControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/springboot/Models/CurrencyDataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_6_28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_21_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/Controllers/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springboot/Controllers/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/Models/CurrencyData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springboot/Models/CurrencyData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/springboot/Models/ErrorPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/springboot/Models/ErrorPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/Resources/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springboot/Resources/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/springboot/Controllers/ControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/springboot/Controllers/ControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/Controllers/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springboot/Controllers/Controller.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,28 +23,17 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="DockManager">
-    <window id="2">
+    <window id="3">
       <content type="file-editors">
         <state>
           <leaf>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/Models/Exchange.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="629">
-                    <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
             <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/Models/CurrencyData.java">
+              <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/Controllers/Controller.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="187">
-                    <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+                  <state relative-caret-position="476">
+                    <caret line="46" column="72" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="72" />
                     <folding>
                       <element signature="imports" expanded="true" />
-                      <element signature="e#642#643#0" expanded="true" />
-                      <element signature="e#692#693#0" expanded="true" />
                     </folding>
                   </state>
                 </provider>
@@ -55,35 +46,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/Resources/Configuration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/Controllers/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/springboot/Controllers/ControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="381">
+              <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,8 +63,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/springboot/Models/ErrorPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
+            <state relative-caret-position="68">
+              <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/Resources/Configuration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/Models/ErrorPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding>
                 <element signature="e#523#524#0" expanded="true" />
                 <element signature="e#567#568#0" expanded="true" />
@@ -123,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/Models/ReturnPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -132,7 +116,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/springboot/Models/CurrencyDataTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="952">
-              <caret line="61" column="37" lean-forward="true" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+              <caret line="61" column="37" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -142,15 +126,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -188,15 +163,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/springboot/Models/ReturnPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springboot/Models/Exchange.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springboot/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springboot/Resources/Configuration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springboot/Services/CurrencyService.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/springboot/Models/ErrorPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/springboot/Models/ExchangeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springboot/Models/CurrencyData.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/springboot/Models/ErrorPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/springboot/Models/CurrencyDataTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springboot/Controllers/Controller.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springboot/Resources/Configuration.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/springboot/Controllers/ControllerTest.java" />
       </list>
     </option>
@@ -325,6 +300,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nosto_interview_assignment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
               <item name="Models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -374,81 +358,81 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CurrencyDataTest">
-    <configuration name="CurrencyDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ControllerTest.processChakForValidSourceAndTarget">
+    <configuration name="ControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springboot.Models.*" />
+          <option name="PATTERN" value="com.springboot.Controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.springboot.Models" />
-      <option name="MAIN_CLASS_NAME" value="com.springboot.Models.CurrencyDataTest" />
+      <option name="PACKAGE_NAME" value="com.springboot.Controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.Controllers.ControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CurrencyDataTest.equalsDifferent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ControllerTest.checkAmountInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springboot.Models.*" />
+          <option name="PATTERN" value="com.springboot.Controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.springboot.Models" />
-      <option name="MAIN_CLASS_NAME" value="com.springboot.Models.CurrencyDataTest" />
-      <option name="METHOD_NAME" value="equalsDifferent" />
+      <option name="PACKAGE_NAME" value="com.springboot.Controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.Controllers.ControllerTest" />
+      <option name="METHOD_NAME" value="checkAmountInput" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CurrencyDataTest.equalsDifferent2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ControllerTest.process" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springboot.Models.*" />
+          <option name="PATTERN" value="com.springboot.Controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.springboot.Models" />
-      <option name="MAIN_CLASS_NAME" value="com.springboot.Models.CurrencyDataTest" />
-      <option name="METHOD_NAME" value="equalsDifferent2" />
+      <option name="PACKAGE_NAME" value="com.springboot.Controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.Controllers.ControllerTest" />
+      <option name="METHOD_NAME" value="process" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CurrencyDataTest.equalsSame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ControllerTest.processChakForValidSourceAndTarget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springboot.Models.*" />
+          <option name="PATTERN" value="com.springboot.Controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.springboot.Models" />
-      <option name="MAIN_CLASS_NAME" value="com.springboot.Models.CurrencyDataTest" />
-      <option name="METHOD_NAME" value="equalsSame" />
+      <option name="PACKAGE_NAME" value="com.springboot.Controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.Controllers.ControllerTest" />
+      <option name="METHOD_NAME" value="processChakForValidSourceAndTarget" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExchangeTest.equalsDifferent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ControllerTest.processValidSourceAndTarget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springboot.Models.*" />
+          <option name="PATTERN" value="com.springboot.Controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.springboot.Models" />
-      <option name="MAIN_CLASS_NAME" value="com.springboot.Models.ExchangeTest" />
-      <option name="METHOD_NAME" value="equalsDifferent" />
+      <option name="PACKAGE_NAME" value="com.springboot.Controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.Controllers.ControllerTest" />
+      <option name="METHOD_NAME" value="processValidSourceAndTarget" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -464,11 +448,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CurrencyDataTest" />
-        <item itemvalue="JUnit.CurrencyDataTest.equalsDifferent2" />
-        <item itemvalue="JUnit.CurrencyDataTest.equalsDifferent" />
-        <item itemvalue="JUnit.CurrencyDataTest.equalsSame" />
-        <item itemvalue="JUnit.ExchangeTest.equalsDifferent" />
+        <item itemvalue="JUnit.ControllerTest.processChakForValidSourceAndTarget" />
+        <item itemvalue="JUnit.ControllerTest.processValidSourceAndTarget" />
+        <item itemvalue="JUnit.ControllerTest.process" />
+        <item itemvalue="JUnit.ControllerTest.checkAmountInput" />
+        <item itemvalue="JUnit.ControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -495,44 +479,50 @@
       <workItem from="1614454033395" duration="12512000" />
       <workItem from="1614505209676" duration="4675000" />
       <workItem from="1614548765598" duration="3501000" />
-      <workItem from="1614580859463" duration="1539000" />
+      <workItem from="1614580859463" duration="3434000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ErrorPageTest_equalSame - 2021.03.01 at 07h 43m 38s.xml">
-      <configuration name="ErrorPageTest.equalSame" configurationId="JUnit" />
+    <history-entry file="ControllerTest_checkAmountInput - 2021.03.01 at 08h 18m 40s.xml">
+      <configuration name="ControllerTest.checkAmountInput" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ErrorPageTest - 2021.03.01 at 07h 44m 15s.xml">
-      <configuration name="ErrorPageTest" configurationId="JUnit" />
+    <history-entry file="ControllerTest_checkAmountInput - 2021.03.01 at 08h 18m 50s.xml">
+      <configuration name="ControllerTest.checkAmountInput" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExchangeTest_equalsSame - 2021.03.01 at 07h 48m 35s.xml">
-      <configuration name="ExchangeTest.equalsSame" configurationId="JUnit" />
+    <history-entry file="ControllerTest_checkAmountInput - 2021.03.01 at 08h 19m 21s.xml">
+      <configuration name="ControllerTest.checkAmountInput" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExchangeTest_equalsDifferent - 2021.03.01 at 07h 48m 54s.xml">
-      <configuration name="ExchangeTest.equalsDifferent" configurationId="JUnit" />
+    <history-entry file="ControllerTest_checkAmountInput - 2021.03.01 at 08h 19m 25s.xml">
+      <configuration name="ControllerTest.checkAmountInput" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CurrencyDataTest_equalsSame - 2021.03.01 at 07h 58m 33s.xml">
-      <configuration name="CurrencyDataTest.equalsSame" configurationId="JUnit" />
+    <history-entry file="ControllerTest - 2021.03.01 at 08h 22m 16s.xml">
+      <configuration name="ControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CurrencyDataTest_equalsDifferent - 2021.03.01 at 07h 58m 51s.xml">
-      <configuration name="CurrencyDataTest.equalsDifferent" configurationId="JUnit" />
+    <history-entry file="ControllerTest_checkAmountInput - 2021.03.01 at 08h 23m 33s.xml">
+      <configuration name="ControllerTest.checkAmountInput" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CurrencyDataTest_equalsDifferent2 - 2021.03.01 at 08h 00m 32s.xml">
-      <configuration name="CurrencyDataTest.equalsDifferent2" configurationId="JUnit" />
+    <history-entry file="ControllerTest_process - 2021.03.01 at 08h 28m 53s.xml">
+      <configuration name="ControllerTest.process" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CurrencyDataTest - 2021.03.01 at 08h 00m 37s.xml">
-      <configuration name="CurrencyDataTest" configurationId="JUnit" />
+    <history-entry file="ControllerTest_processValidSourceAndTarget - 2021.03.01 at 08h 30m 21s.xml">
+      <configuration name="ControllerTest.processValidSourceAndTarget" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ControllerTest_processChakForValidSourceAndTarget - 2021.03.01 at 08h 33m 27s.xml">
+      <configuration name="ControllerTest.processChakForValidSourceAndTarget" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ControllerTest_processChakForValidSourceAndTarget - 2021.03.01 at 08h 34m 38s.xml">
+      <configuration name="ControllerTest.processChakForValidSourceAndTarget" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32562000" />
+    <option name="totallyTimeSpent" value="34457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27114093" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27114093" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -542,7 +532,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21954674" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17847025" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -642,31 +632,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/Models/ReturnPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/springboot/Models/ExchangeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="272">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/Resources/Configuration.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/springboot/Models/CurrencyDataTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        <state relative-caret-position="952">
+          <caret line="61" column="37" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/springboot/Models/ErrorPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/Models/CurrencyData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/Models/ErrorPage.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="469">
+          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -677,43 +679,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/Models/CurrencyData.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/Models/ReturnPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/Resources/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/springboot/Models/ExchangeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/Models/ErrorPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/springboot/Models/ErrorPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/springboot/Models/CurrencyDataTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="61" column="37" lean-forward="true" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+        <state relative-caret-position="391">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/Controllers/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="476">
+          <caret line="46" column="72" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -722,15 +719,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/springboot/Controllers/ControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        <state relative-caret-position="381">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

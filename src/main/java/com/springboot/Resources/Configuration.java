@@ -38,6 +38,7 @@ public class Configuration {
         add("SEK");
         add("NZD");
         add("BRL");
+        add("EUR");
     }};
 
 }
