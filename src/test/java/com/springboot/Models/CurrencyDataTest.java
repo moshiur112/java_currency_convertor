@@ -10,7 +10,9 @@ import static org.junit.jupiter.api.Assertions.*;
  * @author Moshiur Rahman
  */
 class CurrencyDataTest {
-
+    /**
+     * Tests the equals method for two identical CurrencyData objects
+     */
     @Test
     void equalsSame() {
         String base = "base";
@@ -31,6 +33,9 @@ class CurrencyDataTest {
 
 
     }
+    /**
+     * Tests the equals method for two different CurrencyData objects (the bases are different)
+     */
     @Test
     void equalsDifferent() {
 //      The base is different for the CurrencyData objects
@@ -50,7 +55,9 @@ class CurrencyDataTest {
 
         assertNotEquals(cd, cd2);
     }
-
+    /**
+     * Tests the equals method for two different CurrencyData objects (the currency maps are different)
+     */
     @Test
     void equalsDifferent2() {
         String base = "base";

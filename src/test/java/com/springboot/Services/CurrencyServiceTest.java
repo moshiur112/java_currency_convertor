@@ -16,14 +16,19 @@ import static org.mockito.Mockito.mock;
 class CurrencyServiceTest {
     CurrencyService currencyServiceMock;
 
+    /**
+     * Create a mock CurrencySevice object before each test
+     */
     @BeforeEach
     void setUp() {
         currencyServiceMock = mock(CurrencyService.class);
     }
 
-
+    /**
+     * Tests the functionality of the calculateExchange method when the source currency is Euro
+     */
     @Test
-    void calculateExhangeEURSource() {
+    void calculateExchangeEURSource() {
         CurrencyService cs = new CurrencyService();
         Map<String, Float> currency =  new HashMap<>();
         currency.put("EUR", 1.0f);
@@ -35,8 +40,11 @@ class CurrencyServiceTest {
         float EURSourceAnswer = cs.calculateExhange(exchange, cd);
         assertEquals(EURSourceAnswer, 40.f);
     }
+    /**
+     * Tests the functionality of the calculateExchange method when the target currency is Euro
+     */
     @Test
-    void calculateExhangeEURTarget() {
+    void calculateExchangeEURTarget() {
         CurrencyService cs = new CurrencyService();
         Map<String, Float> currency =  new HashMap<>();
         currency.put("EUR", 1.0f);
@@ -48,8 +56,11 @@ class CurrencyServiceTest {
         float EURSourceAnswer = cs.calculateExhange(exchange, cd);
         assertEquals(EURSourceAnswer, 10.f);
     }
+    /**
+     * Tests the functionality of the calculateExchange method in general
+     */
     @Test
-    void calculateExhange() {
+    void calculateExchange() {
         CurrencyService cs = new CurrencyService();
         Map<String, Float> currency =  new HashMap<>();
         currency.put("HKD", 2.0f);
@@ -61,7 +72,9 @@ class CurrencyServiceTest {
         assertEquals(EURSourceAnswer, 30.f);
     }
 
-
+    /**
+     * Tests the functionality of the calculate method
+     */
     @Test
     void calculate() {
         CurrencyService cs = new CurrencyService();

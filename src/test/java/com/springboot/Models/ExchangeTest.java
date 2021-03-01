@@ -7,7 +7,9 @@ import static org.junit.jupiter.api.Assertions.*;
  * @author Moshiur Rahman
  */
 class ExchangeTest {
-
+    /**
+     * Tests the equals method for two identical Exchange objects
+     */
     @Test
     void equalsSame() {
         Exchange exchange = new Exchange("source", "target", "amount", "value");
@@ -15,7 +17,9 @@ class ExchangeTest {
         assertEquals(exchange, exchange2);
 
     }
-
+    /**
+     * Tests the equals method for two different Exchange objects
+     */
     @Test
     void equalsDifferent() {
 //      The source of the two exchange objects are different

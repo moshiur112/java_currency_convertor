@@ -8,7 +8,9 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 class ErrorPageTest {
 
-
+    /**
+     * Tests the equals method for two identical ErrorPage objects
+     */
     @Test
     void equalSame() {
         ErrorPage ep = new ErrorPage("error page same");
@@ -16,7 +18,9 @@ class ErrorPageTest {
         assertEquals(ep, ep2);
 
     }
-
+    /**
+     * Tests the equals method for two different ErrorPage objects
+     */
     @Test
     void equalDiffernet() {
 //      The input for the constructor for the ep2 object is different

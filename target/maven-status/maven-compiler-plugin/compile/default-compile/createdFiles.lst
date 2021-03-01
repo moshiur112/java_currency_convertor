@@ -1,6 +1,5 @@
-com\springboot\Application.class
 com\springboot\Services\CurrencyService.class
-com\springboot\CachingConfig.class
+com\springboot\Application.class
 com\springboot\Controllers\Controller.class
 com\springboot\Models\CurrencyData.class
 com\springboot\Models\Exchange.class

@@ -18,24 +18,17 @@ import static org.mockito.Mockito.*;
 class ControllerTest {
 
     Controller controllerMock;
-
+    /**
+     * Create a mock Controller object before each test
+     */
     @BeforeEach
     public void createMock() {
         controllerMock = mock(Controller.class);
     }
 
-    @Test
-    void indexGoodCase() throws IOException {
-        Map<String, String> queries = new HashMap<>();
-        queries.put("source", "EUR");
-        queries.put("target", "HKD");
-        queries.put("amount", "40");
-        ReturnPage returnPageMock = mock(ReturnPage.class);
-        when(controllerMock.index(queries)).thenReturn(returnPageMock);
-        assertEquals(controllerMock.index(queries), returnPageMock);
-
-    }
-
+    /**
+     * Tests whether the user enters all three query parameters (source, target and amount)
+     */
     @Test
     void indexBadCase() throws IOException {
         ErrorPage ep = new ErrorPage("Please enter all three query parameters (source, target and amount).");
@@ -47,14 +40,18 @@ class ControllerTest {
         when(controllerMock.index(queries)).thenReturn(ep);
         assertEquals(controllerMock.index(queries), ep);
     }
-
+    /**
+     * Tests whether the user enters the same source and target currency
+     */
     @Test
     void processSameSourceAndTarget() throws IOException {
         ErrorPage errorPage = new ErrorPage("Please make sure that the source currency is not the same as the target currency");
         when(controllerMock.process("source", "source","amount")).thenReturn(errorPage);
         assertEquals(controllerMock.process("source", "source","amount"), errorPage);
     }
-
+    /**
+     * Tests whether user enters valid source and target currencies
+     */
     @Test
     void processCheckForValidSourceAndTarget() throws IOException {
 //      Invalid source currency
@@ -67,9 +64,12 @@ class ControllerTest {
         when(controllerMock.process("EUR", "target","amount")).thenReturn(errorPage2);
         assertEquals(controllerMock.process("EUR", "target","amount"), errorPage2);
     }
-
+    /**
+     * Tests robustness against different types of valid and invalid user input.
+     * The is the good weather scenario
+     */
     @Test
-    void processChackForValidInput() throws IOException{
+    void processCheckForValidInput() throws IOException{
         CurrencyService currencyServiceMock = mock(CurrencyService.class);
 
         Exchange exchange = new Exchange("Eur", "HKD", "10", "0");
@@ -85,7 +85,10 @@ class ControllerTest {
 
 
     }
-
+    /**
+     * Tests robustness against different types of valid and invalid user input.
+     * The amount query parameter is checked here
+     */
     @Test
     void checkAmountInput() {
 //      Valid input
