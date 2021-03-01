@@ -22,4 +22,11 @@ public class ErrorPage  extends ReturnPage{
     public int hashCode() {
         return Objects.hash(Message);
     }
+
+    @Override
+    public String toString() {
+        return "ErrorPage{" +
+                "Message='" + Message + '\'' +
+                '}';
+    }
 }
