@@ -6,7 +6,9 @@ import java.util.Set;
  * @author Moshiur Rahman
  */
 public class Configuration {
+//    The base URL for user to query the exchange rates api
     public static String baseURL = "https://api.exchangeratesapi.io/latest/";
+//    Contains all possible currencies the user can enter
     public static Set<String> currencies= new HashSet<String>(){{
         add("HRK");
         add("CHF");

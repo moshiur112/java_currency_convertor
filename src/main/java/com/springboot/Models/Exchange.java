@@ -19,11 +19,13 @@ public class Exchange  extends ReturnPage{
         this.amount = amount;
         this.value = value;
     }
-
+    /**
+     * This method check whether two Exchange objects are identical
+     * @param o another Exchange object
+     * @return boolean of whether they are equal or not
+     */
     @Override
     public boolean equals(Object o) {
-
-
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Exchange exchange = (Exchange) o;
@@ -37,7 +39,9 @@ public class Exchange  extends ReturnPage{
     public int hashCode() {
         return Objects.hash(source, target, amount, value);
     }
-
+    /**
+     * String representation of the the Exchange object
+     */
     @Override
     public String toString() {
         return "s: " + source + " t: " + target + " a: " + amount + " v: " + value;

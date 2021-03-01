@@ -16,6 +16,11 @@ public class CurrencyData {
         this.currecy = currency;
     }
 
+    /**
+     * This method check whether two CurrencyData objects are identical
+     * @param o another CurrencyData object
+     * @return boolean of whether they are equal or not
+     */
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -30,6 +35,9 @@ public class CurrencyData {
         return Objects.hash(base, currecy);
     }
 
+    /**
+     * String representation of the the CurrencyData object
+     */
     @Override
     public String toString() {
         return "CurrencyData{" +

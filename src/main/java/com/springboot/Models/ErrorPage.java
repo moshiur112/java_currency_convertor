@@ -12,7 +12,11 @@ public class ErrorPage  extends ReturnPage{
         super();
         this.Message = message;
     }
-
+    /**
+     * This method check whether two ErrorPage objects are identical
+     * @param o another ErrorPage object
+     * @return boolean of whether they are equal or not
+     */
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -25,7 +29,9 @@ public class ErrorPage  extends ReturnPage{
     public int hashCode() {
         return Objects.hash(Message);
     }
-
+    /**
+     * String representation of the the ErrorPage object
+     */
     @Override
     public String toString() {
         return "ErrorPage{" +

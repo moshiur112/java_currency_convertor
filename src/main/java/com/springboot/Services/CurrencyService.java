@@ -33,28 +33,14 @@ public class CurrencyService {
     Map<String, Float> currencyRatesMap;
 
 
-
-
-
-    public float calculateExhange(Exchange exchange, CurrencyData currencyData) {
-        float ans = 0;
-        if(exchange.source.equals("EUR")) {
-            ans = Float.parseFloat(exchange.amount) * currencyData.currecy.get(exchange.target);
-        } else if(exchange.target.equals("EUR")) {
-
-            ans = Float.parseFloat(exchange.amount) / currencyData.currecy.get(exchange.source);
-        } else {
-            float source = currencyData.currecy.get(exchange.source);
-            float target = currencyData.currecy.get(exchange.target);
-            ans = calculate(source, target, Float.parseFloat(exchange.amount));
-        }
-     return ans;
-    }
+    /**
+     * Processes all the data. This is the central control point of the CurrencyService class
+     * @param exchange An Exchange object with the user inputs only
+     * @return An Exchange object with the final exchanged values
+     * @throws IOException
+     */
 
     public Exchange prepare(Exchange exchange) throws IOException {
-
-
-
         baseCurrency = "EUR";
         currencyRatesMap = new HashMap<>();
         this.exchange = exchange;
@@ -65,17 +51,47 @@ public class CurrencyService {
 
     }
 
-    public float calculate(float source, float target, float amount) {
+    /**
+     * Performs the currency exchange operations
+     * @param exchange Exchange object with the user input data
+     * @param currencyData All the data amount the different currencies
+     * @return The exchange rate amount
+     */
+    public float calculateExhange(Exchange exchange, CurrencyData currencyData) {
+        float ans = 0;
+        if(exchange.source.equals("EUR")) {
+            ans = Float.parseFloat(exchange.amount) * currencyData.currecy.get(exchange.target);
+        } else if(exchange.target.equals("EUR")) {
+
+            ans = Float.parseFloat(exchange.amount) / currencyData.currecy.get(exchange.source);
+        } else {
+            float source = currencyData.currecy.get(exchange.source);
+            float target = currencyData.currecy.get(exchange.target);
+            ans = calculateExchangeRate(source, target, Float.parseFloat(exchange.amount));
+        }
+        return ans;
+    }
+
+    /**
+     * Calculates the exchange rate
+     * @param source Source currency rate
+     * @param target Target currency rate
+     * @param amount Amount to be exchanged
+     * @return The exchange rate amount
+     */
+    public float calculateExchangeRate(float source, float target, float amount) {
         float ans = amount * target / source;
         return ans;
     }
 
+    /**
+     * This method gathers all the exchange rates from the exchange rate
+     * api and and puts them in a map to be used by other methods
+     * @throws IOException
+     */
+
     public void prepareCurrencyData() throws IOException {
-
-
-
         URL url = new URL(Configuration.baseURL);
-
         URLConnection yc = url.openConnection();
         BufferedReader in = new BufferedReader(
                 new InputStreamReader(
@@ -83,22 +99,22 @@ public class CurrencyService {
         String rawJSONData = in.readLine();
         JSONObject jsonObject = new JSONObject(rawJSONData);
         JSONObject currencyRates = jsonObject.getJSONObject("rates");
-
         for(String currency: Configuration.currencies) {
             if(currency.equals("EUR")) {
                 currencyRatesMap.put(currency, 1.0f );
             } else {
                 currencyRatesMap.put(currency, currencyRates.getFloat(currency) );
             }
-
         }
-
-
-
         in.close();
-
-
     }
+
+    /**
+     * The method is called to get the final exchange rate.
+     * The exchange rate is cached under the "exchange" name in the CacheManager
+     * @param answer
+     * @return The final exchange rate
+     */
     @Cacheable("exchange")
     public Exchange getExchange(Exchange answer) {
 //        Uncomment this to simulate a backed a call
@@ -115,12 +131,18 @@ public class CurrencyService {
         return this.exchange;
     }
 
-
+    /**
+     * This method clears the cache
+     */
     public void evictAllCaches() {
         cacheManager.getCacheNames().stream()
                 .forEach(cacheName -> cacheManager.getCache(cacheName).clear());
     }
-    @Scheduled(fixedRate = 20000)
+
+    /**
+     * A scheduler that call the evictAllCaches method and clears the cache every minute
+     */
+    @Scheduled(fixedRate = 60000)
     public void evictAllcachesAtIntervals() {
         evictAllCaches();
     }

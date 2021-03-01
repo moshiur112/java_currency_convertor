@@ -76,9 +76,9 @@ class CurrencyServiceTest {
      * Tests the functionality of the calculate method
      */
     @Test
-    void calculate() {
+    void calculateExchangeRate() {
         CurrencyService cs = new CurrencyService();
-        float answer = cs.calculate(2.0f, 4.0f, 6.0f);
+        float answer = cs.calculateExchangeRate(2.0f, 4.0f, 6.0f);
         assertEquals(answer, 12.0f);
 
     }

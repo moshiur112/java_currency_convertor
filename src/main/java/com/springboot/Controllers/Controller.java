@@ -23,8 +23,13 @@ public class Controller {
 	CurrencyService currencyService;
 
 
-
-
+	/**
+	 *
+	 * Calculated the exchange rate from the user input
+	 * @param queries Map of all the queries entered by the user
+	 * @return The calculated exchange rate
+	 * @throws IOException
+	 */
 	@RequestMapping(method = RequestMethod.GET, value = "/")
 	public ReturnPage index(@RequestParam Map<String, String> queries) throws IOException {
 		String source = queries.get("source");
@@ -39,6 +44,14 @@ public class Controller {
 		return response;
 	}
 
+	/**
+	 * Calculated the exchange rate from the user input
+	 * @param source The source parameter entered by the user
+	 * @param target The target parameter entered by the user
+	 * @param amount The amount parameter entered by the user
+	 * @return The calculated exchange rate
+	 * @throws IOException
+	 */
 	public ReturnPage process(String source, String target, String amount) throws IOException {
 
 		if(!Configuration.currencies.contains(source)) {
@@ -61,10 +74,13 @@ public class Controller {
 		return answer;
 	}
 
+	/**
+	 * Checks whether the user entered a number for the amount parameter
+	 * @param amount The amount parameter entered by the user
+	 * @return Returns true if the number is valid else returns false
+	 */
 
 	public boolean checkAmountInput(String amount) {
-
-
 		boolean foundDigit = false;
 		for(int i = 0; i < amount.length(); i++) {
 			if(!Character.isDigit(amount.charAt(i)) && amount.charAt(i) != '.') {
