@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c462e57-43de-4494-964d-8c3660ee5dcf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/Services/CurrencyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springboot/Services/CurrencyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/Controllers/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springboot/Controllers/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/springboot/Controllers/ControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/springboot/Controllers/ControllerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,13 +16,47 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/Controllers/Controller.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="459">
+                    <caret line="32" column="105" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="105" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/Controllers/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="89">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/springboot/Controllers/ControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-480">
+              <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,10 +65,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/springboot/Controllers/ControllerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/Resources/Configuration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+            <state relative-caret-position="680">
+              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,15 +133,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/Models/ReturnPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/springboot/Models/CurrencyDataTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="952">
@@ -165,9 +190,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/springboot/Models/CurrencyDataTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/springboot/Resources/Configuration.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/springboot/Controllers/ControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springboot/Services/CurrencyService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springboot/Controllers/Controller.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/springboot/Controllers/ControllerTest.java" />
       </list>
     </option>
   </component>
@@ -362,7 +387,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="JUnit.ControllerTest">
     <configuration name="ControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot" />
       <extension name="coverage">
@@ -378,7 +403,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ControllerTest.checkAmountInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ControllerTest.index" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot" />
       <extension name="coverage">
         <pattern>
@@ -388,13 +413,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.springboot.Controllers" />
       <option name="MAIN_CLASS_NAME" value="com.springboot.Controllers.ControllerTest" />
-      <option name="METHOD_NAME" value="checkAmountInput" />
+      <option name="METHOD_NAME" value="index" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ControllerTest.process" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ControllerTest.processChackForValidInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot" />
       <extension name="coverage">
         <pattern>
@@ -404,7 +429,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.springboot.Controllers" />
       <option name="MAIN_CLASS_NAME" value="com.springboot.Controllers.ControllerTest" />
-      <option name="METHOD_NAME" value="process" />
+      <option name="METHOD_NAME" value="processChackForValidInput" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -452,11 +477,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ControllerTest" />
+        <item itemvalue="JUnit.ControllerTest.index" />
+        <item itemvalue="JUnit.ControllerTest.processChackForValidInput" />
         <item itemvalue="JUnit.ControllerTest.processChakForValidSourceAndTarget" />
         <item itemvalue="JUnit.ControllerTest.processValidSourceAndTarget" />
-        <item itemvalue="JUnit.ControllerTest.process" />
-        <item itemvalue="JUnit.ControllerTest.checkAmountInput" />
-        <item itemvalue="JUnit.ControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -484,23 +509,11 @@
       <workItem from="1614505209676" duration="4675000" />
       <workItem from="1614548765598" duration="3501000" />
       <workItem from="1614580859463" duration="3817000" />
-      <workItem from="1614591061515" duration="450000" />
+      <workItem from="1614591061515" duration="2233000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ControllerTest_checkAmountInput - 2021.03.01 at 08h 18m 40s.xml">
-      <configuration name="ControllerTest.checkAmountInput" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ControllerTest_checkAmountInput - 2021.03.01 at 08h 18m 50s.xml">
-      <configuration name="ControllerTest.checkAmountInput" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ControllerTest_checkAmountInput - 2021.03.01 at 08h 19m 21s.xml">
-      <configuration name="ControllerTest.checkAmountInput" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ControllerTest_checkAmountInput - 2021.03.01 at 08h 19m 25s.xml">
-      <configuration name="ControllerTest.checkAmountInput" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ControllerTest - 2021.03.01 at 08h 22m 16s.xml">
       <configuration name="ControllerTest" configurationId="JUnit" />
     </history-entry>
@@ -519,9 +532,21 @@
     <history-entry file="ControllerTest_processChakForValidSourceAndTarget - 2021.03.01 at 08h 34m 38s.xml">
       <configuration name="ControllerTest.processChakForValidSourceAndTarget" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ControllerTest_processChackForValidInput - 2021.03.01 at 10h 47m 21s.xml">
+      <configuration name="ControllerTest.processChackForValidInput" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ControllerTest_processChackForValidInput - 2021.03.01 at 10h 48m 51s.xml">
+      <configuration name="ControllerTest.processChackForValidInput" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ControllerTest_index - 2021.03.01 at 11h 16m 19s.xml">
+      <configuration name="ControllerTest.index" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ControllerTest - 2021.03.01 at 11h 20m 18s.xml">
+      <configuration name="ControllerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35290000" />
+    <option name="totallyTimeSpent" value="37073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -636,16 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/Resources/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/Models/ReturnPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -713,20 +728,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/springboot/Controllers/ControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/Controllers/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        <state relative-caret-position="89">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/Controllers/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springboot/Resources/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="680">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/springboot/Controllers/ControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480">
+          <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -55,9 +55,9 @@ public class Controller {
 			return new ErrorPage("Please enter a number for the amount parameter");
 		}
 		Exchange exchange =  new Exchange(source, target, amount, "0");
-		Exchange answer = currencyService.prepare(exchange);
-		Exchange answer2 = currencyService.getExchange(answer);
-		return answer2;
+		Exchange returnValue = currencyService.prepare(exchange);
+		Exchange answer = currencyService.getExchange(returnValue);
+		return answer;
 	}
 
 
