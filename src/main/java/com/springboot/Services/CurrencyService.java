@@ -18,6 +18,9 @@ import java.net.URLConnection;
 import java.util.HashMap;
 import java.util.Map;
 
+/** This class contains all the business logic for the application
+ * @author Moshiur Rahman
+ */
 @Service
 public class CurrencyService {
 

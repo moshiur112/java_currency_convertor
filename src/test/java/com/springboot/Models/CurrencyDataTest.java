@@ -6,7 +6,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.*;
-
+/** This class tests the CurrencyData class
+ * @author Moshiur Rahman
+ */
 class CurrencyDataTest {
 
     @Test

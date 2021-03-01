@@ -2,6 +2,9 @@ package com.springboot.Models;
 
 import java.util.Objects;
 
+/** This class is used to model errors to be show to the user
+ * @author Moshiur Rahman
+ */
 public class ErrorPage  extends ReturnPage{
     public String Message;
 

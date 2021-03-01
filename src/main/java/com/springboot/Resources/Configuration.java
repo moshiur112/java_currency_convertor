@@ -2,7 +2,9 @@ package com.springboot.Resources;
 
 import java.util.HashSet;
 import java.util.Set;
-
+/** This class holds all the configuration data
+ * @author Moshiur Rahman
+ */
 public class Configuration {
     public static String baseURL = "https://api.exchangeratesapi.io/latest/";
     public static Set<String> currencies= new HashSet<String>(){{

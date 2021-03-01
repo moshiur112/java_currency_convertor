@@ -3,7 +3,9 @@ package com.springboot.Models;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-
+/** This class tests the Exchange class
+ * @author Moshiur Rahman
+ */
 class ExchangeTest {
 
     @Test

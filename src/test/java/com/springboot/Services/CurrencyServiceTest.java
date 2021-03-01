@@ -10,7 +10,9 @@ import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.mock;
-
+/** This class tests the CurrencyService class
+ * @author Moshiur Rahman
+ */
 class CurrencyServiceTest {
     CurrencyService currencyServiceMock;
 
@@ -18,7 +20,7 @@ class CurrencyServiceTest {
     void setUp() {
         currencyServiceMock = mock(CurrencyService.class);
     }
-    
+
 
     @Test
     void calculateExhangeEURSource() {
@@ -67,7 +69,6 @@ class CurrencyServiceTest {
         assertEquals(answer, 12.0f);
 
     }
-
 
 
 }

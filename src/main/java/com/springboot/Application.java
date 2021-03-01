@@ -10,6 +10,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableCaching
 @EnableScheduling
 
+/** This class is the starting point for the application
+ * @author Moshiur Rahman
+ */
 public class Application {
 
 	public static void main(String[] args) {

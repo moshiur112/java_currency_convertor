@@ -3,6 +3,10 @@ package com.springboot.Models;
 import java.util.Map;
 import java.util.Objects;
 
+/** This class stores all the currency data
+ * @author Moshiur Rahman
+ */
+
 public class CurrencyData {
     public String base;
     public Map<String, Float> currecy;

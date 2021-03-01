@@ -1,19 +1,20 @@
 package com.springboot.Controllers;
 
 import static org.junit.jupiter.api.Assertions.*;
-
 import com.springboot.Models.ErrorPage;
 import com.springboot.Models.Exchange;
 import com.springboot.Models.ReturnPage;
 import com.springboot.Services.CurrencyService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
-
 import static org.mockito.Mockito.*;
+
+/** This class tests the Controller class
+ * @author Moshiur Rahman
+ */
 class ControllerTest {
 
     Controller controllerMock;

@@ -9,6 +9,9 @@ public class Exchange  extends ReturnPage{
     public String amount;
     public String value;
 
+    /** This class used to show the currency exchange output to the user
+     * @author Moshiur Rahman
+     */
     public Exchange(String source, String target, String amount, String value){
         super();
         this.source = source;
