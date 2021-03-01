@@ -32,6 +32,7 @@ public class Controller {
 	 */
 	@RequestMapping(method = RequestMethod.GET, value = "/")
 	public ReturnPage index(@RequestParam Map<String, String> queries) throws IOException {
+
 		String source = queries.get("source");
 		String target = queries.get("target");
 		String amount = queries.get("amount");
